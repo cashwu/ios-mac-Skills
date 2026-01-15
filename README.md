@@ -8,8 +8,19 @@ A collection of specialized skills for iOS and Swift development workflows.
 
 This repository contains a set of focused skills designed to assist with common iOS development tasks, from generating release notes to debugging apps and maintaining code quality.
 
-Install: place these skill folders under `$CODEX_HOME/skills/public` (or symlink this repo there).
+## Installation
 
+### Via Marketplace (Recommended)
+1. Run `/plugin` in Claude Code
+2. Search for "ios-mac-skills"
+3. Install the plugin
+
+### Manual Installation
+1. Clone this repository
+2. Run `/plugin` and select "Install from local folder"
+3. Select the cloned folder
+
+### Development Setup
 Optional: enable the pre-commit hook to keep `docs/skills.json` in sync:
 `git config core.hooksPath scripts/git-hooks`
 

@@ -78,7 +78,7 @@ def build_index(root: Path) -> list[dict]:
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
     output = root / "docs" / "skills.json"
-    skills = build_index(root)
+    skills = build_index(root / "skills")
     output.write_text(json.dumps(skills, indent=2), encoding="utf-8")
     print(f"Wrote {output}")
 

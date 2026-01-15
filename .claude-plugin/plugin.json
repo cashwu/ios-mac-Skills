@@ -1,0 +1,11 @@
+{
+  "name": "ios-mac-skills",
+  "version": "1.0.0",
+  "description": "A collection of specialized skills for iOS and Swift development workflows",
+  "author": {
+    "name": "Thomas Ricouard"
+  },
+  "repository": "https://github.com/dimillian/Skills",
+  "license": "MIT",
+  "keywords": ["ios", "swift", "swiftui", "xcode", "macos"]
+}
