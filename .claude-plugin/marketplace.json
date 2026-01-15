@@ -1,0 +1,22 @@
+{
+  "name": "ios-mac-skills",
+  "owner": {
+    "name": "Thomas Ricouard"
+  },
+  "metadata": {
+    "description": "Specialized skills for iOS and Swift development workflows"
+  },
+  "plugins": [
+    {
+      "name": "ios-mac-skills",
+      "source": "./",
+      "description": "A collection of specialized skills for iOS and Swift development workflows",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thomas Ricouard"
+      },
+      "license": "MIT",
+      "keywords": ["ios", "swift", "swiftui", "xcode", "macos"]
+    }
+  ]
+}

@@ -10,15 +10,17 @@ This repository contains a set of focused skills designed to assist with common 
 
 ## Installation
 
-### Via Marketplace (Recommended)
-1. Run `/plugin` in Claude Code
-2. Search for "ios-mac-skills"
-3. Install the plugin
+### Via GitHub (Recommended)
+1. In Claude Code, run `/plugin`
+2. Select "Add Marketplace"
+3. Enter `dimillian/Skills` (or your fork)
+4. Then install: `/plugin install ios-mac-skills@ios-mac-skills`
 
 ### Manual Installation
 1. Clone this repository
-2. Run `/plugin` and select "Install from local folder"
-3. Select the cloned folder
+2. In Claude Code, run `/plugin`
+3. Select "Install from local folder"
+4. Select the cloned folder
 
 ### Development Setup
 Optional: enable the pre-commit hook to keep `docs/skills.json` in sync:
